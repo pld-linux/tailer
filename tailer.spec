@@ -1,5 +1,5 @@
-Summary:	Tailer
-Summary(pl):	Tailer
+Summary:	Tailer - writing output to file and screen
+Summary(pl):	Tailer - zapis wyj¶cia do pliku i na ekran
 Name:		tailer
 Version:	0.2
 Release:	1
@@ -9,24 +9,24 @@ Source0:	%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tailer is a simple utility for writting output of executed 
+Tailer is a simple utility for writing output of executed 
 applications to file and screen at the same time.
 
 %description -l pl
-Tailer to proste narzêdzie do zapisywanie wyjscia z wykonywanych
-aplikacji do pliku i na ekran jednoczesnie.
+Tailer to proste narzêdzie do zapisywanie wyj¶cia z wykonywanych
+aplikacji do pliku i na ekran jednocze¶nie.
 
 %prep
 %setup -q
 
 %build
-gcc -Wall -g02 tailer.c -o tailer
+%{__cc} -Wall %{rpmcflags} tailer.c -o tailer
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_bindir}
 
-install -d $RPM_BUILD_ROOT/%{_bindir}
-install tailer $RPM_BUILD_ROOT/%{_bindir}
+install tailer $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
