@@ -1,7 +1,7 @@
 Summary:	Tailer
 Summary(pl):	Tailer
 Name:		tailer
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	GPL
 Group:		Applications/Text
