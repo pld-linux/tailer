@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	%{name}-%{version}.tgz
+# Source0-md5: a293e91618b8093a85219385b9b8e150
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
