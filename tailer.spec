@@ -10,7 +10,7 @@ Source0:	%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tailer is a simple utility for writing output of executed 
+Tailer is a simple utility for writing output of executed
 applications to file and screen at the same time.
 
 %description -l pl
