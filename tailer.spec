@@ -1,5 +1,5 @@
 Summary:	Tailer - writing output to file and screen
-Summary(pl.UTF-8):   Tailer - zapis wyjścia do pliku i na ekran
+Summary(pl.UTF-8):	Tailer - zapis wyjścia do pliku i na ekran
 Name:		tailer
 Version:	0.2
 Release:	1
