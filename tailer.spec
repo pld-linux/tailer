@@ -1,5 +1,5 @@
 Summary:	Tailer - writing output to file and screen
-Summary(pl):	Tailer - zapis wyj∂cia do pliku i na ekran
+Summary(pl.UTF-8):   Tailer - zapis wyj≈õcia do pliku i na ekran
 Name:		tailer
 Version:	0.2
 Release:	1
@@ -13,9 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tailer is a simple utility for writing output of executed
 applications to file and screen at the same time.
 
-%description -l pl
-Tailer to proste narzÍdzie do zapisywanie wyj∂cia z wykonywanych
-aplikacji do pliku i na ekran jednocze∂nie.
+%description -l pl.UTF-8
+Tailer to proste narzƒôdzie do zapisywanie wyj≈õcia z wykonywanych
+aplikacji do pliku i na ekran jednocze≈õnie.
 
 %prep
 %setup -q
